@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeSuperDemo">
         <activity
+            android:name=".ScaffoldActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComposeSuperDemo.NoActionBar"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
